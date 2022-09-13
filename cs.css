@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    position: relative;
+}
+
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: darkgray;
+    box-shadow: 5px 10px 5px 10px black;
+}
+
+
+.kuch{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    
+}
+
+.sign{
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    background-color: black;
+    color: white;
+}
+
+
+
+#first {
+    width: 150px;
+    height: 50px;
+    background-color: lime;
+    color: white;
+}
+#second {
+    width: 150px;
+    height: 50px;
+    background-color: lime;
+    color: white;
+}
+#answer {
+    width: 150px;
+    height: 50px;
+    background-color: lime;
+    color: white;
+}
